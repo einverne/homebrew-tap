@@ -5,8 +5,7 @@ cask "grapeclip@beta" do
   sha256 arm:   "c1394542d62bbd4c76d8e9bd7abbd7f5f00bdb9214f8adaf596e20e9f5aa6447",
          intel: "1dc0be7e470f96e43a545df0daccc06f2343fec8974fde4f8a21887daca2e31f"
 
-  url "https://github.com/einverne/grapeclip-releases/releases/download/v#{version.csv.first}/GrapeClip_#{version.csv.second}_#{arch}.dmg",
-      verified: "github.com/einverne/grapeclip-releases/"
+  url "https://github.com/einverne/grapeclip-releases/releases/download/v#{version.csv.first}/GrapeClip_#{version.csv.second}_#{arch}.dmg"
   name "GrapeClip"
   desc "End-to-end encrypted clipboard manager with cross-device sync"
   homepage "https://grapeclip.com/"
