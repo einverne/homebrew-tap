@@ -28,6 +28,7 @@ cask "grapeclip@beta" do
 
   auto_updates true
   conflicts_with cask: "grapeclip"
+  depends_on :macos
 
   app "GrapeClip.app"
 
